@@ -7,16 +7,12 @@ A LED blinker library for  **Arduino** platform.
 
 
 ----------
-Dependencies
--------------
-[Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
-
-
-----------
 Introduction
 -------------
 
-This library allows you to perform blinking operations with LEDs. The library provides three classes:
+This library allows you to perform blinking operations with LEDs. Since it also operates with the NeoPixel LEDs, it depends on [Adafruit_NeoPixel Library](https://github.com/adafruit/Adafruit_NeoPixel), so you must have it installed in your environment in order for it to compile.
+
+The library provides three classes:
 
 #### LedBlinker
 This class allows you to blink a regular LED.

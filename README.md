@@ -6,7 +6,7 @@ A LED blinker library for  **Arduino** platform.
 > **New:**  Now supports **NeoPixel** LEDs.
 
 
-----------
+
 Introduction
 -------------
 
@@ -25,7 +25,6 @@ This class allows you to blink a **NeoPixel** LED.
 This class allows you to create a color object for the **PixelBlinker** class.
 
 
-----------
 LedBlinker
 -------------------
 #### The Class
@@ -71,7 +70,7 @@ The **LedBlinker** class allows you to create an instance of the LED you want to
      /* It is necessary to call this method in the program loop. */ 
      myBlueLed.update();
 
-----------
+
 PixelBlinker
 -------------------
 #### The Class
@@ -158,7 +157,6 @@ The **PixelBlinker** class allows you to create an instance of the **NeoPixel** 
      myPixelLed.update();
 
 
-----------
 PixelColor
 -------------------
 #### The Class
@@ -197,7 +195,6 @@ The **PixelColor** class allows you to create a color object for the PixelBlinke
     /* Returns the packed value of the color in GRB format. */
     myCustomColor.getPackedGRB();
 
-----------
 Copyright
 -------------------
 
